@@ -1,0 +1,135 @@
+:root{
+    --main-bg-color:#2874f0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    float: left;
+    height: 45px;
+    width: 100%;
+    background: var(--main-bg-color);
+}
+.logo{
+    float: left;
+    padding-left: 200px;
+    cursor: pointer;
+    margin-right: -81px;
+    margin-top: 3px;
+}
+.search{
+    float: left;
+}
+.ulist{
+    float: left;
+    position: relative;
+    left: 140px;
+}
+.ulist li{
+    float: left;
+    padding: 0px 20px;
+    list-style: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 7px;
+    font-family: system-ui;
+    cursor: pointer;
+}
+#f-logo1{
+    height: 30px;
+}
+.explore {
+    position: relative;
+    left: -116px;
+    top: 9px;
+    color: white;
+    font-weight:400;
+}
+.plus{
+    position: relative;
+    left: -110px;
+    top: 9px;
+    color: yellow;
+}
+#f-logo2{
+    height: 8px;   
+    position: relative; 
+    left: -110px;
+    top: 7px;
+}
+#search-box{
+   width: 465px;
+   height: 30px;
+   margin-top: 5px;
+   border: 1px solid white;
+   border-radius: 5px;
+   padding-left: 15px;
+}
+
+#search{
+    height: 16px;
+    position: relative;
+    right: 33px;
+    top: 4px;
+    cursor: pointer;
+}
+.container{
+    height: 200px; 
+    border-bottom: 1px solid gray;
+    box-shadow: -3px 1px 4px darkgrey;
+
+}
+.item1{
+   float: left;
+   margin-top: -22px;
+   cursor: pointer;
+   } 
+.item1 img{
+    width: 60px;
+    height: 60px;
+    padding: 40px;
+    cursor: pointer;
+}
+.card{
+    display: flex;
+    background-color: white;
+    margin-top: -21px;
+}
+.cards{
+    padding: 0px 21px;
+}
+.card-item img{
+    cursor: pointer;
+}
+.card-main{
+    position: relative;
+    margin-right: -48px;
+    margin-top: 20px;
+}
+.card-main h2{
+    position: relative;
+    bottom: 40px;
+    color: white;
+}
+
+#btnn{
+    position: relative;
+    right: 133px;
+    bottom: 82px;
+    padding: 6px 6px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: var(--main-bg-color);
+    color: white;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 36px;
+    background-color: var(--main-bg-color);
+    color: white;
+    margin-top: 42px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

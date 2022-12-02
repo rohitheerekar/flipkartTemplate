@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilit.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/slide.css">
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+            <img src="img/logo.png" alt="Flipkart" id="f-logo1">
+            <span class="explore"><i>Explore</i></span>
+            <span class="plus"><i>Plus</i></span>
+            <img src="img/logo0.png" alt="Explore plus" id="f-logo2">
+        </div>
+            <div class="search">
+            <input type="text" placeholder="Search for products, brands and more" id="search-box">
+            <img src="img/search.png" alt="search" id="search">
+        </div>
+        <button class="btn">Login</button>
+            <ul class="ulist">
+                <li>Become a seller</li>
+                <li>More</li>
+                <li>Cart</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="item1">
+            <img src="img/grocery.jpg">
+            <h4 class="text-center">Grocery</h4>
+        </div>
+        <div class="item1">
+            <img src="img/mobile.jpg">
+            <h4 class="text-center">Mobile</h4>
+        </div>
+        <div class="item1">
+            <img src="img/fashion.jpg">
+            <h4 class="text-center">Fashion</h4>
+        </div>
+        <div class="item1">
+            <img src="img/electronics.jpg">
+            <h4 class="text-center">Electronics</h4>
+        </div>
+        <div class="item1">
+            <img src="img/home.webp">
+            <h4 class="text-center">Home</h4>
+        </div>
+        <div class="item1">
+            <img src="img/Appliances.jpg">
+            <h4 class="text-center">Appliances</h4>
+        </div>
+        <div class="item1">
+            <img src="img/travel.jpg">
+            <h4 class="text-center">Travel</h4>
+        </div>
+        <div class="item1">
+            <img src="img/offer.webp">
+            <h4 class="text-center">Best Offer</h4>
+        </div>
+        <div class="item1">
+            <img src="img/beauty tpys.jpg">
+            <h4 class="text-center">Beauty,toys & More</h4>
+        </div>
+        <div class="item1">
+            <img src="img/2wheeler.jpg">
+            <h4 class="text-center">2-Wheeler</h4>
+        </div>
+    </div>
+
+    <div id="slide-container">
+        <div class="slide">
+            <img src="img/1.jpg" alt="">
+            <div class="caption">caption text 1</div>
+        </div>
+        <div class="slide">
+            <img src="img/2.jpg" alt="">
+            <div class="caption">caption text 2</div>
+        </div>
+        <div class="slide">
+            <img src="img/3.jpg" alt="">
+            <div class="caption">caption text 3</div>
+        </div>
+
+        <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+        <span class="arrow next" onclick="controller(1)">&#10095;</span>
+    </div>
+
+    <div class="card">
+        <div class="cards">
+             <div class="card-main">
+                <img src="img/electronics2.jpg" width="200px">
+                <button id="btnn">VIEW ALL</button>
+                <h2>Best of Electronics</h2>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card-item">
+                <img src="img/HPprinter.webp" width="180px">
+            </div>
+            <div class="lines">
+                <p class="text center my-1 Thing">Printers</p>
+                <p class="text center my-1 Price">From &#8377;2336</p>
+                <p class="text center my-1 Brand">HP</p>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card-item">
+                <img src="img/Camera.png" width="180px">
+            </div>
+            <div class="lines">
+                <p class="text center my-1 Thing">Cameras</p>
+                <p class="text center my-1 Price">From &#8377;23999</p>
+                <p class="text center my-1 Brand">canon,sony,fuji...</p>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card-item">
+                <img src="img/gimbal.webp" width="180px">
+            </div>
+            <div class="lines">
+                <p class="text center my-1 Thing">Shoot Acceseries</p>
+                <p class="text center my-1 Price">From &#8377;4999</p>
+                <p class="text center my-1 Brand">Tripod,gimbal,bag...</p>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card-item">
+                <img src="img/canonprinter.png" width="180px">
+            </div>
+            <div class="lines">
+                <p class="text center my-1 Thing">Printers</p>
+                <p class="text center my-1 Price">From &#8377;3469</p>
+                <p class="text center my-1 Brand">Canon</p>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card-item">
+                <img src="img/lancesss.jpg" width="180px">
+            </div>
+            <div class="lines">
+                <p class="text center my-1 Thing">Camera lances</p>
+                <p class="text center my-1 Price">From &#8377;12690</p>
+                <p class="text center my-1 Brand">Sony</p>
+            </div>
+        </div>
+    </div>
+    <div class="card" style="margin-top: 30px;">
+        <div class="cards">
+             <div class="card-main">
+                <img src="img/sport.png" width="200px">
+                <button id="btnn">VIEW ALL</button>
+                <h2 style="padding-left: 18px;">Best of Sports</h2>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card-item">
+                <img src="img/football.png" width="180px">
+            </div>
+            <div class="lines">
+                <p class="text center my-1 Thing">Football</p>
+                <p class="text center my-1 Price">From &#8377;799</p>
+                <p class="text center my-1 Brand">Riddel,Scutt&Cos...</p>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card-item">
+                <img src="img/bat.jpg" width="180px">
+            </div>
+            <div class="lines">
+                <p class="text center my-1 Thing">Cricket Bat</p>
+                <p class="text center my-1 Price">From &#8377;499</p>
+                <p class="text center my-1 Brand">SG,Adidas & MRF</p>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card-item">
+                <img src="img/cricketball.jpg" width="155px">
+            </div>
+            <div class="lines">
+                <p class="text center my-1 Thing">ricket Ball</p>
+                <p class="text center my-1 Price">From &#8377;89</p>
+                <p class="text center my-1 Brand">kukuburra,max,sun...</p>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card-item">
+                <img src="img/halmet.jpg" width="180px">
+            </div>
+            <div class="lines">
+                <p class="text center my-1 Thing">Halmet</p>
+                <p class="text center my-1 Price">From &#8377;740</p>
+                <p class="text center my-1 Brand">Dsc,adidas,nike..</p>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card-item">
+                <img src="img/glovesss.jpg" width="180px">
+            </div>
+            <div class="lines">
+                <p class="text center my-1 Thing">Hand Gloves</p>
+                <p class="text center my-1 Price">From &#8377;329</p>
+                <p class="text center my-1 Brand">CG,peter...</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <h2 class="text-center">copyright &copy; all rights reserved @abhinavrathi0001</h2>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

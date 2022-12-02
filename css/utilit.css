@@ -1,0 +1,46 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 6px 42px;
+    color: var(--main-bg-color);
+    background: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: sans-serif;
+    position:relative;
+    right: 359px;
+    margin-top: 6px;
+}
+.btn:hover{
+    color:white ;
+    background-color: var(--main-bg-color);
+}
+.my-1{
+    margin: 3px 0;
+}
+.my-2{
+    margin: 26px 0;
+}
+.text-center{
+    text-align: center;
+    margin: -20px 0px;
+}
+.Thing{
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Price{
+    color: green;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Brand{
+    color: gray;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
