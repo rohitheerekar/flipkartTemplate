@@ -100,8 +100,13 @@ header{
 .cards{
     padding: 0px 21px;
 }
+.card-main img{
+    width: 200px;
+
+}
 .card-item img{
     cursor: pointer;
+    width: 180px;
 }
 .card-main{
     position: relative;
